@@ -5,10 +5,10 @@ app.get('/', function (req, res) {
   res.send('Hello World   12   !\n');
 });
 app.get('/a', function (req, res) {
-  res.send('Hello World   12   !\n');
+  res.send('Hello World   a   !\n');
 });
 app.get('/b', function (req, res) {
-  res.send('Hello World   12   !\n');
+  res.send('Hello World   b   !\n');
 });
 
 app.listen(8080, function () {
